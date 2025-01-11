@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    padding: 55px;
+}
+
+ .calculator{
+    background-color: #fff;
+    width: 50%;
+    height:35%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid orange;
+    position: relative;
+}
+
+hr{
+    border: 3px solid orange;
+    margin: 20px 0;
+}
+
+.sexo{
+    display: flex ;
+    
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.sexo .check{
+    margin-left: 8rem;
+
+}
+
+.sexo label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.entrada{
+    
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.entrada label{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.entrada input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    padding: 5px;
+    border:none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.calcular{
+    background-color: orange;
+    width: 50%;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 0px 1px gainsboro ;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+}
+
+.calcular:hover{
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+}
+
+.homem-imc, .mulher-imc{
+    font-size: 50px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.s-2 h3{
+    color: orange;
+    font-weight: bolder;
+    margin: 10px 0
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item{
+  
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.grid-item img{
+    width: 150px;
+}
+
+.grid-item .descricao{
+   
+    width: 70%;
+} 
+
+.borda-vermelha{
+    border: 5px solid red;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.esconder{
+    display: none;
+}
+
+

@@ -1,0 +1,94 @@
+@media(min-width: 1330px){
+    
+    .grid-container{
+        
+        display: flex;
+        
+    }
+
+    .grid-item{
+       
+        width: 16.5%;
+
+    }
+
+
+    
+}
+
+@media(max-width: 683px){
+    .calculator h1{
+        font-size: 25px;
+    }
+
+    .sexo label{
+        font-size: 0.8rem;
+    }
+
+    .sexo .check{
+        margin-left: 3rem;
+    }
+
+    .grid-container{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+}
+
+@media(max-width:430px){
+    .calculator{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    
+    .calculator h1{
+        font-size: 15px;
+    }
+
+    .sexo{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+    .sexo label{
+        font-size: 1rem;
+        padding-right: 10px;
+
+    }
+    
+
+    .sexo .check{
+        margin: 0;
+        
+    }
+    .sexo .check label{
+        padding-right: 13px;
+        
+    }
+
+    
+    .entrada label{
+        font-size: 10px;
+    }
+
+    .entrada input{
+        width: 60%;
+        height: 100%;
+        outline: none;
+        padding: 5px;
+        border:none;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .entrada input::placeholder{
+        font-size: 10px;
+    }
+    
+}
